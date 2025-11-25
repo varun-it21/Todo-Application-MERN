@@ -1,95 +1,92 @@
-📌 TODO Application – MERN Stack
+# 📌 TODO Application – MERN Stack
 
-A fully functional TODO Application built using the MERN stack (MongoDB, Express.js, React.js, Node.js).
-It supports Create, Read, Update, Delete (CRUD) operations with a clean UI.
+A fully functional **TODO Application** built using the **MERN stack**:  
+**MongoDB**, **Express.js**, **React.js**, and **Node.js**.
 
-📁 Project Structure
+This project supports complete **CRUD operations**, features a modern responsive UI, and includes clean backend APIs.
+
+---
+
+## 📁 Project Structure
+
 Todo-Application-MERN/
 │
-├── todo-backend/       # Backend (Node.js + Express + MongoDB)
-│   ├── models/
-│   ├── routes/
-│   ├── server.js
-│   └── package.json
+├── todo-backend/ # Backend (Node.js + Express + MongoDB)
+│ ├── models/
+│ ├── routes/
+│ ├── server.js
+│ └── package.json
 │
-└── todo-frontend/      # Frontend (React.js)
-    ├── src/
-    ├── public/
-    ├── package.json
-    └── README.md
+└── todo-frontend/ # Frontend (React.js)
+├── src/
+├── public/
+├── package.json
+└── README.md
 
-🚀 Features
-✔ Backend (Node + Express + MongoDB)
+yaml
+Copy code
 
-Add Todo
+---
 
-Get All Todos
+## 🚀 Features
 
-Update Todo
+### ✔ Backend (Node + Express + MongoDB)
+- Create Todo  
+- Read All Todos  
+- Update Todo  
+- Delete Todo  
+- RESTful JSON API  
+- Mongoose schema validation  
+- CORS enabled  
 
-Delete Todo
+### 🎨 Frontend (React)
+- Add tasks (title + description)  
+- Edit tasks inline  
+- Delete tasks  
+- Modern Bootstrap UI  
+- Fully responsive layout  
 
-REST API with JSON
+---
 
-CORS Enabled
+## ⚙️ Tech Stack
 
-🎨 Frontend (React)
+### **Frontend**
+- React.js  
+- Bootstrap  
+- Fetch API / Axios  
 
-Add tasks with title + description
+### **Backend**
+- Node.js  
+- Express.js  
+- MongoDB  
+- Mongoose  
 
-Edit task inline
+---
 
-Delete task
+## 🔧 Installation & Setup
 
-Modern Bootstrap UI
+### 1️⃣ Clone the Repository
 
-Responsive layout
-
-⚙️ Tech Stack
-Frontend
-
-React.js
-
-Axios
-
-Bootstrap
-
-Modern responsive UI
-
-Backend
-
-Node.js
-
-Express.js
-
-MongoDB
-
-Mongoose
-
-🔧 Installation & Setup
-1️⃣ Clone the repository
+```bash
 git clone https://github.com/varun-it21/Todo-Application-MERN.git
 cd Todo-Application-MERN
-
 🖥 Backend Setup
+bash
+Copy code
 cd todo-backend
 npm install
 node server.js
-
-
-Backend runs on:
-
-http://localhost:8000
+Backend will run at:
+👉 http://localhost:8000
 
 💻 Frontend Setup
+bash
+Copy code
 cd todo-frontend/myapp
 npm install
 npm start
-
-
-Frontend runs on:
-
-http://localhost:3000
+Frontend will run at:
+👉 http://localhost:3000
 
 🔗 API Endpoints
 Method	Endpoint	Description
@@ -97,3 +94,11 @@ GET	/todos	Get all todos
 POST	/todos	Add new todo
 PUT	/todos/:id	Update todo
 DELETE	/todos/:id	Delete todo
+
+📝 Folder Explanation
+todo-backend
+Contains Express server, routes, MongoDB models, and API logic.
+
+todo-frontend
+React UI with Bootstrap styling and API integration.
+
